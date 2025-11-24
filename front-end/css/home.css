@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url("imagens/unnamed.webp"); /* caminho da imagem */
+    background-size: cover;        /* faz a imagem cobrir a tela inteira */
+    background-position: center;   /* centraliza a imagem */
+    background-repeat: no-repeat;  /* evita repetição da imagem */
+    background-attachment: fixed;  /* faz a imagem ficar fixa ao rolar a página */
+    margin: 0;
+    padding: 0;
+}
+

@@ -1,0 +1,9 @@
+body {
+    background-image: url("imagens/unnamed.webp"); /* caminho da imagem */
+    background-size: cover;        /* faz a imagem cobrir a tela inteira */
+    background-position: center;   /* centraliza a imagem */
+    background-repeat: no-repeat;  /* evita repetição da imagem */
+    background-attachment: fixed;  /* faz a imagem ficar fixa ao rolar a página */
+    margin: 0;
+    padding: 0;
+}
