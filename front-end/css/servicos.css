@@ -17,7 +17,7 @@
 .flip-card {
     width: 280px;
     height: 160px;
-    perspective: 1000px; /* Necessário para o efeito 3D */
+    perspective: 1000px;
 }
 
 /* Estrutura interna */
@@ -51,15 +51,19 @@
 }
 
 /* Frente */
-.flip-card-front h3 {
-    color: #ffffff;
-    font-size: 1.1rem;
+.flip-card-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 15px;
+    color: #ffffff;
 }
 
 /* Verso */
 .flip-card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
     transform: rotateY(180deg);
     color: #ffffff;
@@ -73,4 +77,5 @@
     display: grid;
     grid-template-columns: repeat(minmax(260px, 1fr));
     gap: 25px;
+    align-content: center;
 }
