@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    background-image: url("imagens/unnamed.webp"); /* caminho da imagem */
+    background-image: url("imagens/Harity\ Tecnology\ Inc.\ \(1\).png"); /* caminho da imagem */
     background-size: cover;        /* faz a imagem cobrir a tela inteira */
     background-position: center;   /* centraliza a imagem */
     background-repeat: no-repeat;  /* evita repetição da imagem */
@@ -12,7 +12,7 @@ body {
 
 header{
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: #FFF;
 }
 
 #navbar{
@@ -33,6 +33,7 @@ header{
     display: flex;
     list-style: none;
     gap: 48px;
+    right: -5 ;
 }
 
 
@@ -58,7 +59,7 @@ nav{
     justify-content: flex-start;
     gap: 20px;
     padding: 20px;
-    background-color: #FFFFFF;
+    background-color: #dce0e6;
     
 }
 
@@ -82,10 +83,31 @@ nav {
     gap: 20px;
 }
 
-
 #harity {
-    position: absolute;
-    top: 100px;
+    position: relative; /* mantém no fluxo normal */
+    margin-top: 260px;  /* distância do topo (ou do nav) */
     left: 0;
+    font-size: 80px;
+    left: 50px;
+    text-decoration: underline;
+    color: #000066;
 }
 
+#haha {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #0033cc;        /* mesmo azul do h1 */
+    margin-left: 50px;     /* alinhado com o h1 */
+    margin-top: 10px;      /* distância entre h1 e p */
+}
+
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 1024px) {
+    #harity {
+        font-size: 50px;
+        margin-left: 30px;
+    }
+}
