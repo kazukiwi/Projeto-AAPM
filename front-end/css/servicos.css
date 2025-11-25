@@ -4,9 +4,27 @@
     box-sizing: border-box;
 }
 
+.titulo-servicos {
+    font-family: "Georgia", serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1b2c4b; 
+    line-height: 1.2;
+    margin-left: 400px;
+    margin-top: 400px;
+}
+
+.servicos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 150px;
+}
+
 /* Fundo */
 body {
-    background-image: url('imagens/unnamed.webp');
+    background-image: url('imagens/Background-Serviços.png');
     background-size: cover;
     background-position: center;
 }
