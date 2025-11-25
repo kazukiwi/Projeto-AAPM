@@ -81,3 +81,11 @@ nav {
     display: flex;
     gap: 20px;
 }
+
+
+#harity {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
