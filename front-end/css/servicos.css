@@ -2,12 +2,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('imagens/unnamed.webp');
+}
+
+.titulo-servicos {
+    font-family: "Georgia", serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1b2c4b; 
+    line-height: 1.2;
+    margin-left: 400px;
+    margin-top: 400px;
+}
+
+.servicos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 150px;
+}
+
+.subtitulo {
+    margin-top: 15px;
+    align-items: flex-start;
+    justify-content: space-between;      
+    font-size: 1rem;
+    color: #1b2c4b;
+    opacity: 0.8;
+    margin-left: 400px;
+}
+
+.lado-esquerdo {
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+/* Fundo */
+body {
+    background-image: url('imagens/Background-Serviços.png');
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Container para alinhar os cards */
 .card-container {
     display: flex;
+    justify-content: flex-end;
     justify-content: center;
     align-items: center;
     padding: 40px;
@@ -15,9 +56,9 @@
 
 /* Tamanho do card */
 .flip-card {
-    width: 280px;
-    height: 160px;
-    perspective: 1000px; /* Necessário para o efeito 3D */
+    width: 320px;  
+    height: 200px;      
+    perspective: 1000px;
 }
 
 /* Estrutura interna */
@@ -35,42 +76,153 @@
 }
 
 /* Frente e verso */
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 10px;
     border: 1px solid #B1C5EA;
-    display: flex right;
+    display: flex;
     justify-content: center;
-    align-items: right;
+    align-items: center;
     backface-visibility: hidden;
-    background: transparent;
-    backdrop-filter: none;
     font-family: "Inter", sans-serif;
+    padding: 15px;
+    text-align: center;
 }
 
 /* Frente */
-.flip-card-front h3 {
+.flip-card-front {
     color: #ffffff;
-    font-size: 1.1rem;
-    text-align: center;
-    padding: 15px;
+    background: rgba(0, 0, 0, 0.4);
 }
 
 /* Verso */
 .flip-card-back {
-    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
     transform: rotateY(180deg);
-    color: #ffffff;
-    font-size: 0.95rem;
-    padding: 20px;
-    text-align: center;
-    background: none;
 }
 
+/* GRID */
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 25px;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: 100px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Footer */
+.footer {
+    background-color: #0e2e62;
+    color: white;
+    padding: 50px 40px;
+    margin-top: 120px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 180px;
+}
+
+.footer-col a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-col a:hover {
+    text-decoration: underline;
+}
+
+/* Social */
+.footer-social img {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-social img {
+    width: 28px;
+    filter: brightness(1);
+}
+
+/* Rodapé inferior */
+.footer-bottom {
+    margin-top: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-to-top {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.back-to-top:hover {
+    opacity: 0.7;
+}
+
+/* Navbar */
+.header {
+    width: 100%;
+    padding: 15px 40px;
+    background-color: #0e2e62;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 140px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+header ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+header ul li a:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.btn-servicos {
+    background: #ffffff;
+    color: #0d2a52 !important;
+}
+
+.btn-servicos:hover {
+    background: #e9e9e9 !important;
 }
