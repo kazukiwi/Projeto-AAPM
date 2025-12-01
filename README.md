@@ -2,12 +2,12 @@
 
 ## Nome da Empresa
 **HARITY 💻**  
-Uma empresa fictícia especializada em soluções de software inovadoras, focada em desenvolvimento ágil e tecnologias emergentes.
+A Harity nasceu da vontade de aplicar na prática o que aprendemos na teoria criando soluções digitais, explorando o poder da informação e conectando pessoas através da internet.
 
 ## Integrantes do Grupo
 - **Kazuki Shiroma** (Líder do Projeto) - Responsável pela arquitetura e integração.
-- **Joanna Santos** (Desenvolvedora Frontend) - Especialista em interfaces de usuário.
-- **Laura Papa** (Desenvolvedora Backend) - Focado em APIs e bancos de dados.
+- **Joanna Santos** (Desenvolvedora Frontend) - elo entre o time de desenvolvimento e os stakeholders.
+- **Laura Papa** (Scrum Master) - líder servidor que ajuda a equipe a seguir os princípios e práticas do Scrum.
 
 
 ## Workflow Escolhido
@@ -25,6 +25,6 @@ O projeto segue uma organização modular para facilitar manutenção e escalabi
 - **Frontend**: Componentes reutilizáveis e responsivos.
 - **Backend**: Microserviços com autenticação.
 
-- **Contato**: Para dúvidas, entre em contato com o líder Kazuki Vitor Shiroma via email: harity.suporte@gmail.com
+- **Contato**: Para dúvidas, entre em contato com o líder Kazuki Vitor Shiroma via email: haritytechnology@gmail.com
 
 Este README foi estruturado para ser claro e conciso, facilitando a compreensão e avaliação do projeto. Agradecemos pelo interesse! 🚀
