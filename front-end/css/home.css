@@ -4,10 +4,10 @@ body {
     background-image: url("imagens/Harity\ Tecnology\ Inc.\ \(1\).png"); /* caminho da imagem */
     background-size: cover;        /* faz a imagem cobrir a tela inteira */
     background-position: center;   /* centraliza a imagem */
-    background-repeat: no-repeat;  /* evita repetição da imagem */
-    background-attachment: fixed;  /* faz a imagem ficar fixa ao rolar a página */
+    background-repeat: no-repeat;  /* evita repetição da imagem */  
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header{
@@ -16,10 +16,11 @@ header{
 }
 
 #navbar{
-    width: 100%;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 0px;
 
 }
 
@@ -34,7 +35,9 @@ header{
     list-style: none;
     gap: 48px;
     right: -5 ;
+    margin-left: 20px;
 }
+
 
 
 .nav-item.active {
@@ -59,14 +62,14 @@ nav{
     justify-content: flex-start;
     gap: 20px;
     padding: 20px;
-    background-color: #dce0e6;
+    background-color: #fff;
     
 }
 
 nav a {
     background: #2b4d85;
     color: white;
-    padding: 18px 40px;
+    padding: 18px 20px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: 700;
