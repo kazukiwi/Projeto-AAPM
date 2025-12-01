@@ -6,8 +6,8 @@ A Harity nasceu da vontade de aplicar na prática o que aprendemos na teoria cri
 
 ## Integrantes do Grupo
 - **Kazuki Shiroma** (Líder do Projeto) - Responsável pela arquitetura e integração.
-- **Joanna Santos** (Desenvolvedora Frontend) - Especialista em interfaces de usuário.
-- **Laura Papa** (Desenvolvedora Backend) - Focado em APIs e bancos de dados.
+- **Joanna Santos** (Desenvolvedora Frontend) - elo entre o time de desenvolvimento e os stakeholders.
+- **Laura Papa** (Scrum Master) - líder servidor que ajuda a equipe a seguir os princípios e práticas do Scrum.
 
 
 ## Workflow Escolhido
