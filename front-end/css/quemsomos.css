@@ -1,0 +1,226 @@
+body {
+    background-image: url("imagens/Harity\ Tecnology\ Inc..png"); /* caminho da imagem */
+    background-size: cover;        /* faz a imagem cobrir a tela inteira */
+    background-position: center;   /* centraliza a imagem */
+    background-repeat: no-repeat;  /* evita repetição da imagem */
+    background-attachment: fixed;  /* faz a imagem ficar fixa ao rolar a página */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+main.quemsomos h1 {
+    font-family: "Playfair", serif;
+    font-size: 4 rem !important; /* opcional */
+    font-weight: 700 !important;  /* opcional */
+      
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* separa logo e menu */
+    align-items: center;
+    padding: 0 40px; /* cria margem interna */
+    box-sizing: border-box;
+}
+.header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* espaçamento entre os itens */
+    margin: 0;
+    padding: 0;
+}
+
+/* PARTE QUEM SOMOS E TEXTO */
+
+main.quemsomos{
+    width: 80%;
+    margin:50px auto;
+    text-align: center;
+}
+
+
+main.quemsomos p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem !important;
+
+}
+
+/* FOTOS */
+
+section.funcionarios{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+figure.funcionarios{
+    background: transparent;
+    box-shadow: none;
+
+}
+figure.funcionarios img:hover {
+    transform: scale(1.05);     /* aumenta só a foto */
+    transition: 0.3s ease;
+    box-shadow: none !important;
+    background: none !important;
+}
+
+
+
+figure.funcionarios figcaption{
+    font-size: 1.1rem;
+    color: #111;
+    font-weight: 500;
+}
+
+figure.funcionarios img{
+    width: 180px;
+    height: 180px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #1d3557;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+/* hover nas palavras abaixo das imagens */ 
+figure.funcionarios figcaption{
+    font-family: "playfair", serif;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: default;
+
+}
+
+figure.funcionarios figcaption:hover {
+    color: #1d3557;           /* muda a cor ao passar o mouse */
+    transform: translateY(-2px); /* efeito leve */
+
+}
+
+
+
+
+
+
+/* Footer */
+.footer {
+    background-color: #0e2e62;
+    color: white;
+    padding: 50px 40px;
+    margin-top: 120px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 180px;
+}
+
+.footer-col a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-col a:hover {
+    text-decoration: underline;
+}
+
+/* Social */
+.footer-social img {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-social img {
+    width: 28px;
+    filter: brightness(1);
+}
+
+/* Rodapé inferior */
+.footer-bottom {
+    margin-top: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-to-top {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.back-to-top:hover {
+    opacity: 0.7;
+}
+
+/* Navbar */
+.header {
+    width: 100%;
+    padding: 15px 40px;
+    background-color: #0e2e62;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 140px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+header ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+header ul li a:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.btn-servicos {
+    background: #ffffff;
+    color: #0d2a52 !important;
+}
+
+.btn-servicos:hover {
+    background: #e9e9e9 !important;
+}
