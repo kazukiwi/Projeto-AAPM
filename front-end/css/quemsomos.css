@@ -17,6 +17,21 @@ main.quemsomos h1 {
     font-weight: 700 !important;  /* opcional */
       
 }
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* separa logo e menu */
+    align-items: center;
+    padding: 0 40px; /* cria margem interna */
+    box-sizing: border-box;
+}
+.header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* espaçamento entre os itens */
+    margin: 0;
+    padding: 0;
+}
 
 /* PARTE QUEM SOMOS E TEXTO */
 
@@ -91,7 +106,10 @@ figure.funcionarios figcaption{
 figure.funcionarios figcaption:hover {
     color: #1d3557;           /* muda a cor ao passar o mouse */
     transform: translateY(-2px); /* efeito leve */
+
 }
+
+
 
 
 
