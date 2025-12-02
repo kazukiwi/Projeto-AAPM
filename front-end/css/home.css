@@ -79,7 +79,7 @@ nav a {
 #line-azul {
     width: 100%;
     height: 3px;
-    background-color: #0033cc;
+    background-color: #00238d;
 }
 nav {
     display: flex;
@@ -89,18 +89,30 @@ nav {
 #harity {
     position: relative; /* mantém no fluxo normal */
     margin-top: 260px;  /* distância do topo (ou do nav) */
-    left: 0;
+    left: 5;
     font-size: 80px;
     left: 50px;
     text-decoration: underline;
     color: #000066;
 }
 
+.c1 {
+    color: #567ebb; /* azul escuro */
+}
+
+.c2 {
+    color: #2b4c7e; /* azul vivo */
+}
+
+.c3 {
+    color: #929daf; /* azul claro */
+}
+
 #haha {
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: #0033cc;        /* mesmo azul do h1 */
+    color: #001658;        
     margin-left: 50px;     /* alinhado com o h1 */
     margin-top: 10px;      /* distância entre h1 e p */
 }
